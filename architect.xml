@@ -1,0 +1,7 @@
+handlers:
+  github:
+    plugins:
+      ConnectorPlugin:
+        oauth: ENV
+        name: exorath/ConnectorPlugin
+        jar: ConnectorPlugin-(.*).jar
