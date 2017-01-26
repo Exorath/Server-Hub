@@ -2,6 +2,7 @@ handlers:
   github:
     plugins:
       ConnectorPlugin:
-        oauth: ENV
+        oauth:
+          env: GITHUB_OAUTH
         name: exorath/ConnectorPlugin
         jar: ConnectorPlugin-(.*).jar
