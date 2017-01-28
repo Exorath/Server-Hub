@@ -10,5 +10,5 @@ ARG EULA
 
 COPY . /usr/src/mcserver
 WORKDIR /usr/src/mcserver
-RUN serverarchitect --eula=${EULA}
-ENTRYPOINT ["startserver"]
+RUN serverarchitect
+ENTRYPOINT ["startserver", --eula=${EULA}]
