@@ -6,8 +6,9 @@ ARG AWS_SECRET_KEY
 ENV AWS_SECRET_KEY ${AWS_SECRET_KEY}		
 ARG AWS_REGION		
 ENV AWS_REGION ${AWS_REGION}
+ARG EULA
 
 COPY . /usr/src/mcserver
 WORKDIR /usr/src/mcserver
-RUN serverarchitect
+RUN serverarchitect --eula=${EULA}
 ENTRYPOINT ["startserver"]
