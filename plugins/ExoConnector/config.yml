@@ -1,0 +1,20 @@
+inv:
+  gamesitem:
+    slot: 0
+  games:
+    game1:
+      slot: 13
+      name: Island Wars
+      description:
+        short: RTS
+        long:
+        - Build your base,
+        - conquer the world!
+joincommands:
+  hubcmd:
+    name: Island Wars Hub
+    cmds:
+    - hub
+    - lobby
+    filter:
+      gameId: hubs.iw
