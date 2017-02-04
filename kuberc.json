@@ -31,6 +31,12 @@
                 "protocol": "TCP"
               }
             ],
+            "env": [
+              {
+                "name": "CONNECTOR_SERVICE_ADDRESS",
+                "value": "localhost:8080"
+              }
+            ],
             "imagePullPolicy": "IfNotPresent"
           }
         ],
