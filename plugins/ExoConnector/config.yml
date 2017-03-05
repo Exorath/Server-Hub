@@ -2,14 +2,17 @@ inv:
   gamesitem:
     slot: 0
   games:
-    game1:
+    Simple-1v1:
       slot: 13
-      name: Island Wars
+      name: Simple-1v1
       description:
         short: RTS
         long:
         - Build your base,
         - conquer the world!
+      filter:
+        gameId: simple1v1
+        
 joincommands:
   hubcmd:
     name: Island Wars Hub
@@ -17,4 +20,4 @@ joincommands:
     - hub
     - lobby
     filter:
-      gameId: hubs.iw
+      gameId: simple1v1
