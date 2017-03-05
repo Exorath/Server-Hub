@@ -4,7 +4,7 @@ inv:
   games:
     Simple-1v1:
       slot: 13
-      name: Simple-1v1
+      name: simple-1v1
       description:
         short: RTS
         long:
