@@ -24,8 +24,8 @@ handlers:
   mapservice:
     maps:
       allMaps:
-        type: multi
+        type: single
         address: "http://localhost:8080"
         userId: test
         envId: prod
-        prefix: forsakenwarrior.lobb
+        mapId: forsakenwarrior.lobby
