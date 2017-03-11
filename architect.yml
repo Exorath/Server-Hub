@@ -28,4 +28,4 @@ handlers:
         address: "http://localhost:8080"
         userId: test
         envId: prod
-        prefix: forsakenwarrior.lobby
+        mapId: forsakenwarrior.lobby
