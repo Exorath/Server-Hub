@@ -12,6 +12,16 @@ inv:
         - conquer the world!
       filter:
         gameId: simple1v1
+    cakewars:
+      slot: 14
+      name: CakeWars
+      description:
+        short: scw
+        long:
+        - Build your base,
+        - conquer the world!
+      filter:
+        gameId: cakewars
         
 joincommands:
   hubcmd:
