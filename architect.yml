@@ -1,7 +1,7 @@
 handlers:
   github:
     plugins:
-      ExoBasePlugin:
+      MainLobbyPlugin:
         oauth:
           env: GITHUB_OAUTH
         name: exorath/MainLobbyPlugin
