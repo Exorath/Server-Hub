@@ -21,7 +21,7 @@ inv:
         - Build your base,
         - conquer the world!
       filter:
-        gameId: cakewars
+        gameId: lobby-cakewars
         
 joincommands:
   hubcmd:
