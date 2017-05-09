@@ -16,7 +16,7 @@ handlers:
           env: GITHUB_OAUTH
         name: exorath/ExoBasePlugin
         jar: ExoBasePlugin-(.*).jar
-      ExoHUD
+      ExoHUD:
         oauth:
           env: GITHUB_OAUTH
         name: exorath/ExoHUD
