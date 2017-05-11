@@ -26,6 +26,11 @@ handlers:
           env: GITHUB_OAUTH
         name: exorath/HidePlayersPlugin
         jar: HidePlayersPlugin(.*).jar
+      ShopItemPlugin:
+        oauth:
+          env: GITHUB_OAUTH
+        name: exorath/ShopItemPlugin
+        jar: ShopItemPlugin(.*).jar
   amazons3:
     jar:
       bucketName: exospigot
