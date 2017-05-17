@@ -31,6 +31,11 @@ handlers:
           env: GITHUB_OAUTH
         name: exorath/ShopItemPlugin
         jar: ShopItemPlugin(.*).jar
+      BaseLobbyPlugin
+        oauth:
+          env: GITHUB_OAUTH
+        name: exorath/BaseLobbyPlugin
+        jar: BaseLobbyPlugin(.*).jar
   amazons3:
     jar:
       bucketName: exospigot
