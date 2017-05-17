@@ -31,7 +31,7 @@ handlers:
           env: GITHUB_OAUTH
         name: exorath/ShopItemPlugin
         jar: ShopItemPlugin(.*).jar
-      BaseLobbyPlugin
+      BaseLobbyPlugin:
         oauth:
           env: GITHUB_OAUTH
         name: exorath/BaseLobbyPlugin
