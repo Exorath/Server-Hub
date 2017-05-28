@@ -39,7 +39,7 @@ world-settings:
     arrow-despawn-rate: 1200
     zombie-aggressive-towards-villager: true
     nerf-spawner-mobs: false
-    view-distance: 10
+    view-distance: 24
     dragon-death-sound-radius: 0
     seed-village: 10387312
     seed-feature: 14357617
