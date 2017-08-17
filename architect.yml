@@ -36,6 +36,11 @@ handlers:
           env: GITHUB_OAUTH
         name: exorath/BaseLobbyPlugin
         jar: BaseLobbyPlugin(.*).jar
+      ExoMenus:
+        oauth:
+          env: GITHUB_OAUTH
+        name: exorath/ExoMenus
+        jar: ExoMenus(.*).jar
   amazons3:
     jar:
       bucketName: exospigot
